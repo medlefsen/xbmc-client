@@ -1,7 +1,8 @@
-require 'rubygems'
 require 'bundler'
 
-Bundler.require(:default)
+require 'json'
+require 'i18n'
+require 'active_support'
 
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'httparty'
